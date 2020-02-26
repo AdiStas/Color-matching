@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Color matching</title>
+	<link rel="preload" href="fonts/roboto-regular-webfont.woff2" as="font">
+	<link rel="preload" href="fonts/roboto-regular-webfont.woff" as="font">
+	<link rel="preload" href="fonts/roboto-bold-webfont.woff2" as="font">
+	<link rel="preload" href="fonts/roboto-bold-webfont.woff" as="font">
+	<link rel="preload" href="fonts/russoone-regular-webfont.woff2" as="font">
+	<link rel="preload" href="fonts/russoone-regular-webfont.woff" as="font">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main class="main">
+		<section class="main__section">
+			<h1 class="main__title">Выбери цвет для своего дизайна</h1>
+			<div class="container">
+				<p class="description">Нажми "выбрать цвет"</p>
+			</div>
+			<div class="btn__container">
+				<button class="btn random-color">Выбрать цвет</button>
+				<button class="btn save-color">Сохранить цвет</button>
+				<button class="btn remove-color">Удалить последний цвет</button>
+			</div>
+			<ul class="selected-colors__container"></ul>
+		</section>
+	</main>
+	<footer>
+		<span>Разработано:</span>
+		<a href="https://adistas.github.io/Portfolio/">
+			<img src="main-logo.svg" width="30" alt="author-logo">
+		</a>
+		<span>©2020</span>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
